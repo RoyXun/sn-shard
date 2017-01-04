@@ -1,0 +1,32 @@
+{
+  "name": "sn-shard",
+  "version": "1.0.0",
+  "description": "a murmurhash based redis sharding algorithm implementation for eggache passport.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyXun/sn-shard.git"
+  },
+  "keywords": [
+    "redis",
+    "shard",
+    "murmurhash",
+    "passport"
+  ],
+  "author": {
+    "name": "xunql",
+    "email": "963877037@qq.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoyXun/sn-shard/issues"
+  },
+  "homepage": "https://github.com/RoyXun/sn-shard#readme",
+  "dependencies": {
+    "decimal.js": "^7.1.0",
+    "murmurhash-native": "^3.2.0"
+  }
+}
