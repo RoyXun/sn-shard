@@ -1,6 +1,8 @@
 ### 简介
 为passport实现的node版的redis分片算法，目的是为了和java端分片算法根据sessionID映射相同的shard，底层基于murmurhash算法。
 
+v1.1.0开始murmurhash-native使用离线版本。
+
 ### 安装
 ```
 npm install sn-shard --save
