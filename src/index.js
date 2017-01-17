@@ -1,5 +1,8 @@
-var murmurHash = require('murmurhash-native').murmurHash64x64;
+var path = require('path');
 var Decimal = require('decimal.js');
+//使用预编译的murmurhash-native
+var murmurhash_path = path.resolve(__dirname, '../lib/murmurhash', process.platform + '-' + process.arch, 'Release/murmurhash');
+var murmurHash = require(murmurhash_path).murmurHash64x64;
 //反码映射
 var hexBinMap = {
     0: '1111',
